@@ -1,0 +1,10 @@
+/* 
+  Localizable.Strings
+  Keeper
+
+  Created by LSD on 15/12/31.
+  Copyright © 2015年 renwfy.fr. All rights reserved.
+*/
+
+"authWithTouchId" = "输入指纹，解锁应用";
+"settingsController" = "设置";

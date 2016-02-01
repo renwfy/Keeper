@@ -1,18 +1,18 @@
 //
-//  SettingsViewController.swift
+//  TestViewController.swift
 //  Keeper
 //
-//  Created by LSD on 16/1/26.
+//  Created by LSD on 16/2/1.
 //  Copyright © 2016年 renwfy.fr. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: BaseViewController {
+class TestViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "设置"
+        self.view.backgroundColor = UIColor.redColor()
         // Do any additional setup after loading the view.
     }
 

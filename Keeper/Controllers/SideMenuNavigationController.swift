@@ -1,18 +1,19 @@
 //
-//  SettingsViewController.swift
+//  SideMenuNavigationController.swift
 //  Keeper
 //
-//  Created by LSD on 16/1/26.
+//  Created by LSD on 16/2/1.
 //  Copyright © 2016年 renwfy.fr. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: BaseViewController {
+class SideMenuNavigationController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "设置"
+        title = "菜单"
+
         // Do any additional setup after loading the view.
     }
 

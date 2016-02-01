@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        //self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.backgroundColor = UIColor.whiteColor()
         
         initSplashVC()
         return true
@@ -45,7 +45,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
         
         let nav1 = UINavigationController.init(rootViewController: MainViewController())
+        nav1.tabBarItem.title = "首页"
+        nav1.tabBarItem.image = UIImage(named: "ic_main_nomal")
+        nav1.tabBarItem.selectedImage = UIImage(named: "ic_main_press")
+        
+        
         let nav2 = UINavigationController.init(rootViewController: SettingsViewController())
+        nav2.tabBarItem.title = "设置"
+        nav2.tabBarItem.image = UIImage(named: "ic_setting_nomal")
+        nav2.tabBarItem.selectedImage = UIImage(named: "ic_setting_press")
         
         tabBarController.viewControllers = [nav1, nav2]
         self.window!.rootViewController = tabBarController

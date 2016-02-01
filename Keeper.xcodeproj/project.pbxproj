@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45098CDD1C5F3DF100D48C15 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098CDB1C5F3DF100D48C15 /* TestViewController.swift */; };
+		45098CDE1C5F3DF100D48C15 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45098CDC1C5F3DF100D48C15 /* TestViewController.xib */; };
+		45098D8B1C5F4A3600D48C15 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D741C5F4A3600D48C15 /* FMDatabase+FTS3.m */; };
+		45098D8C1C5F4A3600D48C15 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D761C5F4A3600D48C15 /* FMTokenizers.m */; };
+		45098D8D1C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D7A1C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		45098D8E1C5F4A3600D48C15 /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098D7C1C5F4A3600D48C15 /* FMDatabaseAdditionsVariadic.swift */; };
+		45098D8F1C5F4A3600D48C15 /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098D7D1C5F4A3600D48C15 /* FMDatabaseVariadic.swift */; };
+		45098D901C5F4A3600D48C15 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D801C5F4A3600D48C15 /* FMDatabase.m */; };
+		45098D911C5F4A3600D48C15 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D821C5F4A3600D48C15 /* FMDatabaseAdditions.m */; };
+		45098D921C5F4A3600D48C15 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D841C5F4A3600D48C15 /* FMDatabasePool.m */; };
+		45098D931C5F4A3600D48C15 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D861C5F4A3600D48C15 /* FMDatabaseQueue.m */; };
+		45098D941C5F4A3600D48C15 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098D891C5F4A3600D48C15 /* FMResultSet.m */; };
+		45098D951C5F4A3600D48C15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45098D8A1C5F4A3600D48C15 /* Info.plist */; };
 		4546EB681C5605E700B246A9 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546EB661C5605E700B246A9 /* VerifyViewController.swift */; };
 		4546EB6B1C56119700B246A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546EB6A1C56119700B246A9 /* Constants.swift */; };
+		457EEFB01C5F35FD005EF5C1 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAC1C5F35FD005EF5C1 /* SideMenuManager.swift */; };
+		457EEFB11C5F35FD005EF5C1 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAD1C5F35FD005EF5C1 /* SideMenuTransition.swift */; };
+		457EEFB21C5F35FD005EF5C1 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAE1C5F35FD005EF5C1 /* UISideMenuNavigationController.swift */; };
+		457EEFB31C5F35FD005EF5C1 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAF1C5F35FD005EF5C1 /* UITableViewVibrantCell.swift */; };
+		457EEFB61C5F3AD1005EF5C1 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFB41C5F3AD1005EF5C1 /* SideMenuNavigationController.swift */; };
+		457EEFB71C5F3AD1005EF5C1 /* SideMenuNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 457EEFB51C5F3AD1005EF5C1 /* SideMenuNavigationController.xib */; };
 		4590C1771C571EF200211806 /* VerifyPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4590C1751C571EF200211806 /* VerifyPresentView.swift */; };
 		4590C1781C571EF200211806 /* VerifyPresentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4590C1761C571EF200211806 /* VerifyPresentView.xib */; };
 		4590C17B1C57401300211806 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4590C1791C57401300211806 /* SettingsViewController.swift */; };
@@ -47,8 +66,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45098CDB1C5F3DF100D48C15 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		45098CDC1C5F3DF100D48C15 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		45098D6F1C5F44F400D48C15 /* Keeper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keeper-Bridging-Header.h"; sourceTree = "<group>"; };
+		45098D731C5F4A3600D48C15 /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		45098D741C5F4A3600D48C15 /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		45098D751C5F4A3600D48C15 /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		45098D761C5F4A3600D48C15 /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		45098D771C5F4A3600D48C15 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		45098D791C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		45098D7A1C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		45098D7C1C5F4A3600D48C15 /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		45098D7D1C5F4A3600D48C15 /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		45098D7F1C5F4A3600D48C15 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		45098D801C5F4A3600D48C15 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		45098D811C5F4A3600D48C15 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		45098D821C5F4A3600D48C15 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		45098D831C5F4A3600D48C15 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		45098D841C5F4A3600D48C15 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		45098D851C5F4A3600D48C15 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		45098D861C5F4A3600D48C15 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		45098D871C5F4A3600D48C15 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		45098D881C5F4A3600D48C15 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		45098D891C5F4A3600D48C15 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		45098D8A1C5F4A3600D48C15 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4546EB661C5605E700B246A9 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		4546EB6A1C56119700B246A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		457EEFAC1C5F35FD005EF5C1 /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		457EEFAD1C5F35FD005EF5C1 /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		457EEFAE1C5F35FD005EF5C1 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		457EEFAF1C5F35FD005EF5C1 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		457EEFB41C5F3AD1005EF5C1 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		457EEFB51C5F3AD1005EF5C1 /* SideMenuNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuNavigationController.xib; sourceTree = "<group>"; };
 		4590C1751C571EF200211806 /* VerifyPresentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPresentView.swift; sourceTree = "<group>"; };
 		4590C1761C571EF200211806 /* VerifyPresentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPresentView.xib; sourceTree = "<group>"; };
 		4590C1791C57401300211806 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +151,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45098D701C5F4A2700D48C15 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				45098D711C5F4A3600D48C15 /* extra */,
+				45098D7E1C5F4A3600D48C15 /* fmdb */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		45098D711C5F4A3600D48C15 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				45098D721C5F4A3600D48C15 /* fts3 */,
+				45098D781C5F4A3600D48C15 /* InMemoryOnDiskIO */,
+				45098D7B1C5F4A3600D48C15 /* Swift extensions */,
+			);
+			name = extra;
+			path = fmdb/src/extra;
+			sourceTree = "<group>";
+		};
+		45098D721C5F4A3600D48C15 /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				45098D731C5F4A3600D48C15 /* FMDatabase+FTS3.h */,
+				45098D741C5F4A3600D48C15 /* FMDatabase+FTS3.m */,
+				45098D751C5F4A3600D48C15 /* FMTokenizers.h */,
+				45098D761C5F4A3600D48C15 /* FMTokenizers.m */,
+				45098D771C5F4A3600D48C15 /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		45098D781C5F4A3600D48C15 /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				45098D791C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.h */,
+				45098D7A1C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		45098D7B1C5F4A3600D48C15 /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45098D7C1C5F4A3600D48C15 /* FMDatabaseAdditionsVariadic.swift */,
+				45098D7D1C5F4A3600D48C15 /* FMDatabaseVariadic.swift */,
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+		45098D7E1C5F4A3600D48C15 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				45098D7F1C5F4A3600D48C15 /* FMDatabase.h */,
+				45098D801C5F4A3600D48C15 /* FMDatabase.m */,
+				45098D811C5F4A3600D48C15 /* FMDatabaseAdditions.h */,
+				45098D821C5F4A3600D48C15 /* FMDatabaseAdditions.m */,
+				45098D831C5F4A3600D48C15 /* FMDatabasePool.h */,
+				45098D841C5F4A3600D48C15 /* FMDatabasePool.m */,
+				45098D851C5F4A3600D48C15 /* FMDatabaseQueue.h */,
+				45098D861C5F4A3600D48C15 /* FMDatabaseQueue.m */,
+				45098D871C5F4A3600D48C15 /* FMDB.h */,
+				45098D881C5F4A3600D48C15 /* FMResultSet.h */,
+				45098D891C5F4A3600D48C15 /* FMResultSet.m */,
+				45098D8A1C5F4A3600D48C15 /* Info.plist */,
+			);
+			name = fmdb;
+			path = fmdb/src/fmdb;
+			sourceTree = "<group>";
+		};
+		457EEF541C5F2F33005EF5C1 /* Db */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Db;
+			sourceTree = "<group>";
+		};
+		457EEF551C5F2FD2005EF5C1 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				45098D701C5F4A2700D48C15 /* FMDB */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		457EEFAA1C5F35FD005EF5C1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				457EEFAB1C5F35FD005EF5C1 /* SideMenu */,
+			);
+			name = Library;
+			path = Keeper/Library;
+			sourceTree = SOURCE_ROOT;
+		};
+		457EEFAB1C5F35FD005EF5C1 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				457EEFAC1C5F35FD005EF5C1 /* SideMenuManager.swift */,
+				457EEFAD1C5F35FD005EF5C1 /* SideMenuTransition.swift */,
+				457EEFAE1C5F35FD005EF5C1 /* UISideMenuNavigationController.swift */,
+				457EEFAF1C5F35FD005EF5C1 /* UITableViewVibrantCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		45B5D5C11C57670400F88EE7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		45CEEE1F1C3E301A0019306F /* utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,14 +296,19 @@
 		45D77BF11C33B34F000A0247 /* Keeper */ = {
 			isa = PBXGroup;
 			children = (
+				457EEF541C5F2F33005EF5C1 /* Db */,
+				457EEFAA1C5F35FD005EF5C1 /* Library */,
+				457EEF551C5F2FD2005EF5C1 /* Submodules */,
 				45D77C201C33B55F000A0247 /* Controllers */,
 				45D77C271C33C2C3000A0247 /* Framework */,
 				45CEEE1F1C3E301A0019306F /* utils */,
+				45B5D5C11C57670400F88EE7 /* Widget */,
 				4546EB6A1C56119700B246A9 /* Constants.swift */,
 				45D77BF21C33B34F000A0247 /* AppDelegate.swift */,
 				45D77BF91C33B34F000A0247 /* Assets.xcassets */,
 				45D77BFE1C33B34F000A0247 /* Info.plist */,
 				45EE48FE1C357D7B00D46242 /* Localizable.Strings */,
+				45098D6F1C5F44F400D48C15 /* Keeper-Bridging-Header.h */,
 			);
 			path = Keeper;
 			sourceTree = "<group>";
@@ -178,6 +344,10 @@
 				4546EB661C5605E700B246A9 /* VerifyViewController.swift */,
 				4590C1751C571EF200211806 /* VerifyPresentView.swift */,
 				4590C1761C571EF200211806 /* VerifyPresentView.xib */,
+				457EEFB41C5F3AD1005EF5C1 /* SideMenuNavigationController.swift */,
+				457EEFB51C5F3AD1005EF5C1 /* SideMenuNavigationController.xib */,
+				45098CDB1C5F3DF100D48C15 /* TestViewController.swift */,
+				45098CDC1C5F3DF100D48C15 /* TestViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,9 +467,12 @@
 			files = (
 				45D77BFA1C33B34F000A0247 /* Assets.xcassets in Resources */,
 				45EE49051C35825D00D46242 /* SplashViewController.xib in Resources */,
+				45098D951C5F4A3600D48C15 /* Info.plist in Resources */,
 				45EE48FC1C357D7B00D46242 /* Localizable.Strings in Resources */,
 				45CEEE1E1C3E0ED80019306F /* MainViewController.xib in Resources */,
 				4590C17C1C57401300211806 /* SettingsViewController.xib in Resources */,
+				457EEFB71C5F3AD1005EF5C1 /* SideMenuNavigationController.xib in Resources */,
+				45098CDE1C5F3DF100D48C15 /* TestViewController.xib in Resources */,
 				4590C1781C571EF200211806 /* VerifyPresentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,16 +499,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D77BF31C33B34F000A0247 /* AppDelegate.swift in Sources */,
+				457EEFB21C5F35FD005EF5C1 /* UISideMenuNavigationController.swift in Sources */,
+				45098CDD1C5F3DF100D48C15 /* TestViewController.swift in Sources */,
+				457EEFB31C5F35FD005EF5C1 /* UITableViewVibrantCell.swift in Sources */,
+				457EEFB01C5F35FD005EF5C1 /* SideMenuManager.swift in Sources */,
 				4546EB6B1C56119700B246A9 /* Constants.swift in Sources */,
 				45D77C221C33BC75000A0247 /* MainViewController.swift in Sources */,
+				45098D8C1C5F4A3600D48C15 /* FMTokenizers.m in Sources */,
+				45098D901C5F4A3600D48C15 /* FMDatabase.m in Sources */,
+				45098D8E1C5F4A3600D48C15 /* FMDatabaseAdditionsVariadic.swift in Sources */,
 				45CEEE231C3E30DF0019306F /* Log.swift in Sources */,
+				457EEFB61C5F3AD1005EF5C1 /* SideMenuNavigationController.swift in Sources */,
+				45098D921C5F4A3600D48C15 /* FMDatabasePool.m in Sources */,
 				4546EB681C5605E700B246A9 /* VerifyViewController.swift in Sources */,
+				45098D8F1C5F4A3600D48C15 /* FMDatabaseVariadic.swift in Sources */,
+				45098D941C5F4A3600D48C15 /* FMResultSet.m in Sources */,
 				4590C1771C571EF200211806 /* VerifyPresentView.swift in Sources */,
 				45CEEE251C3E324F0019306F /* Colors.swift in Sources */,
+				45098D931C5F4A3600D48C15 /* FMDatabaseQueue.m in Sources */,
 				45D77C241C33BC89000A0247 /* BaseViewController.swift in Sources */,
 				45EE49041C35825D00D46242 /* SplashViewController.swift in Sources */,
+				45098D8D1C5F4A3600D48C15 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				45CEEE211C3E309A0019306F /* PhoneUtils.swift in Sources */,
+				45098D8B1C5F4A3600D48C15 /* FMDatabase+FTS3.m in Sources */,
+				457EEFB11C5F35FD005EF5C1 /* SideMenuTransition.swift in Sources */,
 				4590C17B1C57401300211806 /* SettingsViewController.swift in Sources */,
+				45098D911C5F4A3600D48C15 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,11 +659,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Keeper/Widget/SideMenu/Example/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Keeper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Keeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Keeper-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -484,11 +679,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Keeper/Widget/SideMenu/Example/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Keeper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Keeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Keeper-Bridging-Header.h";
 			};
 			name = Release;
 		};

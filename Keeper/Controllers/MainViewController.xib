@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Keeper" customModuleProvider="target">
             <connections>
+                <outlet property="tableview" destination="7IH-GP-00w" id="OZl-MK-4O9"/>
                 <outlet property="view" destination="iN0-l3-epB" id="WWb-er-oL8"/>
             </connections>
         </placeholder>
@@ -13,7 +14,17 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7IH-GP-00w">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Yvd-0t-ywN"/>
+                        <outlet property="delegate" destination="-1" id="zBo-kb-ekZ"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <point key="canvasLocation" x="259" y="285"/>
         </view>
     </objects>

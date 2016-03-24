@@ -12,7 +12,7 @@ class SplashViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.performSelector(Selector.init("goToMain"), withObject: nil, afterDelay: 2.0)
+        self.performSelector(Selector.init("goToMain"), withObject: nil, afterDelay: 0.25)
     }
     
     override func didReceiveMemoryWarning() {

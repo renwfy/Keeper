@@ -7,10 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45098CDD1C5F3DF100D48C15 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098CDB1C5F3DF100D48C15 /* TestViewController.swift */; };
-		45098CDE1C5F3DF100D48C15 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45098CDC1C5F3DF100D48C15 /* TestViewController.xib */; };
+		45098DBD1C5F53E500D48C15 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45098DBC1C5F53E500D48C15 /* libsqlite3.tbd */; };
+		45098DD71C5F571D00D48C15 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DC01C5F571D00D48C15 /* FMDatabase.m */; };
+		45098DD81C5F571D00D48C15 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DC21C5F571D00D48C15 /* FMDatabaseAdditions.m */; };
+		45098DD91C5F571D00D48C15 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DC41C5F571D00D48C15 /* FMDatabasePool.m */; };
+		45098DDA1C5F571D00D48C15 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DC61C5F571D00D48C15 /* FMDatabaseQueue.m */; };
+		45098DDB1C5F571D00D48C15 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DC91C5F571D00D48C15 /* FMResultSet.m */; };
+		45098DDC1C5F571D00D48C15 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DCD1C5F571D00D48C15 /* FMDatabase+FTS3.m */; };
+		45098DDD1C5F571D00D48C15 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DCF1C5F571D00D48C15 /* FMTokenizers.m */; };
+		45098DDE1C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 45098DD31C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		45098DDF1C5F571D00D48C15 /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098DD51C5F571D00D48C15 /* FMDatabaseAdditionsVariadic.swift */; };
+		45098DE01C5F571D00D48C15 /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098DD61C5F571D00D48C15 /* FMDatabaseVariadic.swift */; };
+		45098DE31C5F59B900D48C15 /* NewKeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098DE11C5F59B900D48C15 /* NewKeeperViewController.swift */; };
+		45098DE41C5F59B900D48C15 /* NewKeeperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45098DE21C5F59B900D48C15 /* NewKeeperViewController.xib */; };
+		45098DE71C5F5F4500D48C15 /* FMDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098DE51C5F5F4500D48C15 /* FMDBHelper.swift */; };
+		45098DE81C5F5F4500D48C15 /* DBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45098DE61C5F5F4500D48C15 /* DBConstants.swift */; };
+		4543E5A81C96BE3900B86750 /* keeper.sqlite.zip in Resources */ = {isa = PBXBuildFile; fileRef = 4543E5A71C96BE3900B86750 /* keeper.sqlite.zip */; };
 		4546EB681C5605E700B246A9 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546EB661C5605E700B246A9 /* VerifyViewController.swift */; };
 		4546EB6B1C56119700B246A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546EB6A1C56119700B246A9 /* Constants.swift */; };
+		454DD64E1C619EAA00041938 /* ZipUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DD64D1C619EAA00041938 /* ZipUtils.swift */; };
+		454DD6501C619F0300041938 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DD64F1C619F0300041938 /* FileUtils.swift */; };
+		454DD6771C619FF300041938 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6551C619FF300041938 /* aescrypt.c */; };
+		454DD6781C619FF300041938 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6561C619FF300041938 /* aeskey.c */; };
+		454DD6791C619FF300041938 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6581C619FF300041938 /* aestab.c */; };
+		454DD67A1C619FF300041938 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD65C1C619FF300041938 /* entropy.c */; };
+		454DD67B1C619FF300041938 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD65E1C619FF300041938 /* fileenc.c */; };
+		454DD67C1C619FF300041938 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6601C619FF300041938 /* hmac.c */; };
+		454DD67D1C619FF300041938 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6621C619FF300041938 /* prng.c */; };
+		454DD67E1C619FF300041938 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6641C619FF300041938 /* pwd2key.c */; };
+		454DD67F1C619FF300041938 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6661C619FF300041938 /* sha1.c */; };
+		454DD6801C619FF300041938 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 454DD6691C619FF300041938 /* Info.plist */; };
+		454DD6811C619FF300041938 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD66C1C619FF300041938 /* ioapi.c */; };
+		454DD6821C619FF300041938 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD66E1C619FF300041938 /* mztools.c */; };
+		454DD6831C619FF300041938 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6701C619FF300041938 /* unzip.c */; };
+		454DD6841C619FF300041938 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6721C619FF300041938 /* zip.c */; };
+		454DD6851C619FF300041938 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6751C619FF300041938 /* SSZipArchive.m */; };
+		454DD6871C61CDA900041938 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 454DD6861C61CDA900041938 /* libz.tbd */; };
+		454DD68B1C61EACA00041938 /* MenuAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DD68A1C61EACA00041938 /* MenuAdd.swift */; };
+		454DD68D1C61EAE200041938 /* MenuAdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454DD68C1C61EAE200041938 /* MenuAdd.xib */; };
+		454DD6901C621FFC00041938 /* NewTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DD68E1C621FFC00041938 /* NewTypeViewController.swift */; };
+		454DD6911C621FFC00041938 /* NewTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454DD68F1C621FFC00041938 /* NewTypeViewController.xib */; };
+		454DD6941C623E1200041938 /* KeeperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DD6921C623E1200041938 /* KeeperCell.swift */; };
+		454DD6951C623E1200041938 /* KeeperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454DD6931C623E1200041938 /* KeeperCell.xib */; };
+		4560A38B1CA25E8000DB06E8 /* SettingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560A38A1CA25E8000DB06E8 /* SettingEntity.swift */; };
+		4560A38E1CA388DB00DB06E8 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560A38C1CA388DB00DB06E8 /* SettingsCell.swift */; };
+		4560A38F1CA388DB00DB06E8 /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4560A38D1CA388DB00DB06E8 /* SettingsCell.xib */; };
 		457EEFB01C5F35FD005EF5C1 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAC1C5F35FD005EF5C1 /* SideMenuManager.swift */; };
 		457EEFB11C5F35FD005EF5C1 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAD1C5F35FD005EF5C1 /* SideMenuTransition.swift */; };
 		457EEFB21C5F35FD005EF5C1 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457EEFAE1C5F35FD005EF5C1 /* UISideMenuNavigationController.swift */; };
@@ -21,6 +62,11 @@
 		4590C1781C571EF200211806 /* VerifyPresentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4590C1761C571EF200211806 /* VerifyPresentView.xib */; };
 		4590C17B1C57401300211806 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4590C1791C57401300211806 /* SettingsViewController.swift */; };
 		4590C17C1C57401300211806 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4590C17A1C57401300211806 /* SettingsViewController.xib */; };
+		45915EF21C60605600E11B9D /* KeeperType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45915EF11C60605600E11B9D /* KeeperType.swift */; };
+		45915EF51C6075B500E11B9D /* KeeperEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45915EF41C6075B500E11B9D /* KeeperEntity.swift */; };
+		45915EF91C609E4400E11B9D /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45915EF71C609E4400E11B9D /* MenuCell.swift */; };
+		45915EFA1C609E4400E11B9D /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45915EF81C609E4400E11B9D /* MenuCell.xib */; };
+		45915EFC1C60AC5000E11B9D /* TypeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45915EFB1C60AC5000E11B9D /* TypeEntity.swift */; };
 		45CEEE1E1C3E0ED80019306F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CEEE1D1C3E0ED80019306F /* MainViewController.xib */; };
 		45CEEE211C3E309A0019306F /* PhoneUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CEEE201C3E309A0019306F /* PhoneUtils.swift */; };
 		45CEEE231C3E30DF0019306F /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CEEE221C3E30DF0019306F /* Log.swift */; };
@@ -35,6 +81,8 @@
 		45EE48FC1C357D7B00D46242 /* Localizable.Strings in Resources */ = {isa = PBXBuildFile; fileRef = 45EE48FE1C357D7B00D46242 /* Localizable.Strings */; };
 		45EE49041C35825D00D46242 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE49021C35825D00D46242 /* SplashViewController.swift */; };
 		45EE49051C35825D00D46242 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45EE49031C35825D00D46242 /* SplashViewController.xib */; };
+		45FA3F591C62F96200E10A13 /* mbmsz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FA3F581C62F96200E10A13 /* mbmsz.ttf */; };
+		45FA3F5B1C6322A500E10A13 /* jdxs.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FA3F5A1C6322A500E10A13 /* jdxs.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +103,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45098CDB1C5F3DF100D48C15 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		45098CDC1C5F3DF100D48C15 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		45098D6F1C5F44F400D48C15 /* Keeper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keeper-Bridging-Header.h"; sourceTree = "<group>"; };
+		45098DBC1C5F53E500D48C15 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		45098DBF1C5F571D00D48C15 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		45098DC01C5F571D00D48C15 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		45098DC11C5F571D00D48C15 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		45098DC21C5F571D00D48C15 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		45098DC31C5F571D00D48C15 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		45098DC41C5F571D00D48C15 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		45098DC51C5F571D00D48C15 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		45098DC61C5F571D00D48C15 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		45098DC71C5F571D00D48C15 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		45098DC81C5F571D00D48C15 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		45098DC91C5F571D00D48C15 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		45098DCC1C5F571D00D48C15 /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		45098DCD1C5F571D00D48C15 /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		45098DCE1C5F571D00D48C15 /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		45098DCF1C5F571D00D48C15 /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		45098DD01C5F571D00D48C15 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		45098DD21C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		45098DD31C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		45098DD51C5F571D00D48C15 /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		45098DD61C5F571D00D48C15 /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		45098DE11C5F59B900D48C15 /* NewKeeperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewKeeperViewController.swift; sourceTree = "<group>"; };
+		45098DE21C5F59B900D48C15 /* NewKeeperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewKeeperViewController.xib; sourceTree = "<group>"; };
+		45098DE51C5F5F4500D48C15 /* FMDBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBHelper.swift; sourceTree = "<group>"; };
+		45098DE61C5F5F4500D48C15 /* DBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConstants.swift; sourceTree = "<group>"; };
+		4543E5A71C96BE3900B86750 /* keeper.sqlite.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = keeper.sqlite.zip; sourceTree = "<group>"; };
 		4546EB661C5605E700B246A9 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		4546EB6A1C56119700B246A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		454DD64D1C619EAA00041938 /* ZipUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipUtils.swift; sourceTree = "<group>"; };
+		454DD64F1C619F0300041938 /* FileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		454DD6531C619FF300041938 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		454DD6541C619FF300041938 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		454DD6551C619FF300041938 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		454DD6561C619FF300041938 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		454DD6571C619FF300041938 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		454DD6581C619FF300041938 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		454DD6591C619FF300041938 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		454DD65A1C619FF300041938 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		454DD65B1C619FF300041938 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		454DD65C1C619FF300041938 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		454DD65D1C619FF300041938 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		454DD65E1C619FF300041938 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		454DD65F1C619FF300041938 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		454DD6601C619FF300041938 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		454DD6611C619FF300041938 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		454DD6621C619FF300041938 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		454DD6631C619FF300041938 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		454DD6641C619FF300041938 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		454DD6651C619FF300041938 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		454DD6661C619FF300041938 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		454DD6671C619FF300041938 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		454DD6681C619FF300041938 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		454DD6691C619FF300041938 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454DD66B1C619FF300041938 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		454DD66C1C619FF300041938 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		454DD66D1C619FF300041938 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		454DD66E1C619FF300041938 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		454DD66F1C619FF300041938 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		454DD6701C619FF300041938 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		454DD6711C619FF300041938 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		454DD6721C619FF300041938 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		454DD6731C619FF300041938 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		454DD6741C619FF300041938 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		454DD6751C619FF300041938 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		454DD6761C619FF300041938 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		454DD6861C61CDA900041938 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		454DD68A1C61EACA00041938 /* MenuAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAdd.swift; sourceTree = "<group>"; };
+		454DD68C1C61EAE200041938 /* MenuAdd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuAdd.xib; sourceTree = "<group>"; };
+		454DD68E1C621FFC00041938 /* NewTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTypeViewController.swift; sourceTree = "<group>"; };
+		454DD68F1C621FFC00041938 /* NewTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTypeViewController.xib; sourceTree = "<group>"; };
+		454DD6921C623E1200041938 /* KeeperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeeperCell.swift; sourceTree = "<group>"; };
+		454DD6931C623E1200041938 /* KeeperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeeperCell.xib; sourceTree = "<group>"; };
+		4560A38A1CA25E8000DB06E8 /* SettingEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingEntity.swift; sourceTree = "<group>"; };
+		4560A38C1CA388DB00DB06E8 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		4560A38D1CA388DB00DB06E8 /* SettingsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+		4560A3911CA3AFC700DB06E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.Strings; sourceTree = "<group>"; };
 		457EEFAC1C5F35FD005EF5C1 /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
 		457EEFAD1C5F35FD005EF5C1 /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
 		457EEFAE1C5F35FD005EF5C1 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
@@ -70,6 +190,11 @@
 		4590C1761C571EF200211806 /* VerifyPresentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPresentView.xib; sourceTree = "<group>"; };
 		4590C1791C57401300211806 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4590C17A1C57401300211806 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		45915EF11C60605600E11B9D /* KeeperType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeeperType.swift; sourceTree = "<group>"; };
+		45915EF41C6075B500E11B9D /* KeeperEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeeperEntity.swift; sourceTree = "<group>"; };
+		45915EF71C609E4400E11B9D /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		45915EF81C609E4400E11B9D /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		45915EFB1C60AC5000E11B9D /* TypeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeEntity.swift; sourceTree = "<group>"; };
 		45CEEE1D1C3E0ED80019306F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		45CEEE201C3E309A0019306F /* PhoneUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneUtils.swift; sourceTree = "<group>"; };
 		45CEEE221C3E30DF0019306F /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
@@ -87,10 +212,11 @@
 		45D77C211C33BC75000A0247 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		45D77C231C33BC89000A0247 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		45D77C281C33C2DF000A0247 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
-		45EE48FD1C357D7B00D46242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.Strings; sourceTree = "<group>"; };
 		45EE48FF1C357DA800D46242 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.Strings"; sourceTree = "<group>"; };
 		45EE49021C35825D00D46242 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		45EE49031C35825D00D46242 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		45FA3F581C62F96200E10A13 /* mbmsz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mbmsz.ttf; sourceTree = "<group>"; };
+		45FA3F5A1C6322A500E10A13 /* jdxs.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jdxs.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +224,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454DD6871C61CDA900041938 /* libz.tbd in Frameworks */,
+				45098DBD1C5F53E500D48C15 /* libsqlite3.tbd in Frameworks */,
 				45D77C291C33C2DF000A0247 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,9 +247,139 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45098D961C5F529E00D48C15 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				45098DBE1C5F571D00D48C15 /* fmdb */,
+				45098DCA1C5F571D00D48C15 /* extra */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		45098DBE1C5F571D00D48C15 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				45098DBF1C5F571D00D48C15 /* FMDatabase.h */,
+				45098DC01C5F571D00D48C15 /* FMDatabase.m */,
+				45098DC11C5F571D00D48C15 /* FMDatabaseAdditions.h */,
+				45098DC21C5F571D00D48C15 /* FMDatabaseAdditions.m */,
+				45098DC31C5F571D00D48C15 /* FMDatabasePool.h */,
+				45098DC41C5F571D00D48C15 /* FMDatabasePool.m */,
+				45098DC51C5F571D00D48C15 /* FMDatabaseQueue.h */,
+				45098DC61C5F571D00D48C15 /* FMDatabaseQueue.m */,
+				45098DC71C5F571D00D48C15 /* FMDB.h */,
+				45098DC81C5F571D00D48C15 /* FMResultSet.h */,
+				45098DC91C5F571D00D48C15 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = fmdb/src/fmdb;
+			sourceTree = "<group>";
+		};
+		45098DCA1C5F571D00D48C15 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				45098DCB1C5F571D00D48C15 /* fts3 */,
+				45098DD11C5F571D00D48C15 /* InMemoryOnDiskIO */,
+				45098DD41C5F571D00D48C15 /* Swift extensions */,
+			);
+			name = extra;
+			path = fmdb/src/extra;
+			sourceTree = "<group>";
+		};
+		45098DCB1C5F571D00D48C15 /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				45098DCC1C5F571D00D48C15 /* FMDatabase+FTS3.h */,
+				45098DCD1C5F571D00D48C15 /* FMDatabase+FTS3.m */,
+				45098DCE1C5F571D00D48C15 /* FMTokenizers.h */,
+				45098DCF1C5F571D00D48C15 /* FMTokenizers.m */,
+				45098DD01C5F571D00D48C15 /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		45098DD11C5F571D00D48C15 /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				45098DD21C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.h */,
+				45098DD31C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		45098DD41C5F571D00D48C15 /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45098DD51C5F571D00D48C15 /* FMDatabaseAdditionsVariadic.swift */,
+				45098DD61C5F571D00D48C15 /* FMDatabaseVariadic.swift */,
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+		454DD6511C619FF300041938 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				454DD6521C619FF300041938 /* aes */,
+				454DD6681C619FF300041938 /* Common.h */,
+				454DD6691C619FF300041938 /* Info.plist */,
+				454DD66A1C619FF300041938 /* minizip */,
+				454DD6741C619FF300041938 /* SSZipArchive.h */,
+				454DD6751C619FF300041938 /* SSZipArchive.m */,
+				454DD6761C619FF300041938 /* ZipArchive.h */,
+			);
+			name = SSZipArchive;
+			path = ZipArchive/SSZipArchive;
+			sourceTree = "<group>";
+		};
+		454DD6521C619FF300041938 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				454DD6531C619FF300041938 /* aes.h */,
+				454DD6541C619FF300041938 /* aes_via_ace.h */,
+				454DD6551C619FF300041938 /* aescrypt.c */,
+				454DD6561C619FF300041938 /* aeskey.c */,
+				454DD6571C619FF300041938 /* aesopt.h */,
+				454DD6581C619FF300041938 /* aestab.c */,
+				454DD6591C619FF300041938 /* aestab.h */,
+				454DD65A1C619FF300041938 /* brg_endian.h */,
+				454DD65B1C619FF300041938 /* brg_types.h */,
+				454DD65C1C619FF300041938 /* entropy.c */,
+				454DD65D1C619FF300041938 /* entropy.h */,
+				454DD65E1C619FF300041938 /* fileenc.c */,
+				454DD65F1C619FF300041938 /* fileenc.h */,
+				454DD6601C619FF300041938 /* hmac.c */,
+				454DD6611C619FF300041938 /* hmac.h */,
+				454DD6621C619FF300041938 /* prng.c */,
+				454DD6631C619FF300041938 /* prng.h */,
+				454DD6641C619FF300041938 /* pwd2key.c */,
+				454DD6651C619FF300041938 /* pwd2key.h */,
+				454DD6661C619FF300041938 /* sha1.c */,
+				454DD6671C619FF300041938 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		454DD66A1C619FF300041938 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				454DD66B1C619FF300041938 /* crypt.h */,
+				454DD66C1C619FF300041938 /* ioapi.c */,
+				454DD66D1C619FF300041938 /* ioapi.h */,
+				454DD66E1C619FF300041938 /* mztools.c */,
+				454DD66F1C619FF300041938 /* mztools.h */,
+				454DD6701C619FF300041938 /* unzip.c */,
+				454DD6711C619FF300041938 /* unzip.h */,
+				454DD6721C619FF300041938 /* zip.c */,
+				454DD6731C619FF300041938 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		457EEF541C5F2F33005EF5C1 /* Db */ = {
 			isa = PBXGroup;
 			children = (
+				45098DE51C5F5F4500D48C15 /* FMDBHelper.swift */,
+				45098DE61C5F5F4500D48C15 /* DBConstants.swift */,
 			);
 			path = Db;
 			sourceTree = "<group>";
@@ -129,6 +387,8 @@
 		457EEF551C5F2FD2005EF5C1 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				454DD6511C619FF300041938 /* SSZipArchive */,
+				45098D961C5F529E00D48C15 /* FMDB */,
 			);
 			path = Submodules;
 			sourceTree = "<group>";
@@ -153,6 +413,47 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		45915EF01C60601300E11B9D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				45915EF11C60605600E11B9D /* KeeperType.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		45915EF31C60759C00E11B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45915EF41C6075B500E11B9D /* KeeperEntity.swift */,
+				45915EFB1C60AC5000E11B9D /* TypeEntity.swift */,
+				4560A38A1CA25E8000DB06E8 /* SettingEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45915EF61C609E1C00E11B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45915EF71C609E4400E11B9D /* MenuCell.swift */,
+				45915EF81C609E4400E11B9D /* MenuCell.xib */,
+				454DD68A1C61EACA00041938 /* MenuAdd.swift */,
+				454DD68C1C61EAE200041938 /* MenuAdd.xib */,
+				454DD6921C623E1200041938 /* KeeperCell.swift */,
+				454DD6931C623E1200041938 /* KeeperCell.xib */,
+				4560A38C1CA388DB00DB06E8 /* SettingsCell.swift */,
+				4560A38D1CA388DB00DB06E8 /* SettingsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45915EFD1C60B35F00E11B9D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4543E5A71C96BE3900B86750 /* keeper.sqlite.zip */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		45B5D5C11C57670400F88EE7 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +464,8 @@
 		45CEEE1F1C3E301A0019306F /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				454DD64F1C619F0300041938 /* FileUtils.swift */,
+				454DD64D1C619EAA00041938 /* ZipUtils.swift */,
 				45CEEE241C3E324F0019306F /* Colors.swift */,
 				45CEEE221C3E30DF0019306F /* Log.swift */,
 				45CEEE201C3E309A0019306F /* PhoneUtils.swift */,
@@ -193,12 +496,17 @@
 		45D77BF11C33B34F000A0247 /* Keeper */ = {
 			isa = PBXGroup;
 			children = (
+				45FA3F571C62F96200E10A13 /* Font */,
+				45915EFD1C60B35F00E11B9D /* Config */,
+				45915EF01C60601300E11B9D /* Constants */,
 				457EEF541C5F2F33005EF5C1 /* Db */,
 				457EEFAA1C5F35FD005EF5C1 /* Library */,
+				45915EF31C60759C00E11B9D /* Model */,
 				457EEF551C5F2FD2005EF5C1 /* Submodules */,
 				45D77C201C33B55F000A0247 /* Controllers */,
 				45D77C271C33C2C3000A0247 /* Framework */,
 				45CEEE1F1C3E301A0019306F /* utils */,
+				45915EF61C609E1C00E11B9D /* View */,
 				45B5D5C11C57670400F88EE7 /* Widget */,
 				4546EB6A1C56119700B246A9 /* Constants.swift */,
 				45D77BF21C33B34F000A0247 /* AppDelegate.swift */,
@@ -243,8 +551,10 @@
 				4590C1761C571EF200211806 /* VerifyPresentView.xib */,
 				457EEFB41C5F3AD1005EF5C1 /* SideMenuNavigationController.swift */,
 				457EEFB51C5F3AD1005EF5C1 /* SideMenuNavigationController.xib */,
-				45098CDB1C5F3DF100D48C15 /* TestViewController.swift */,
-				45098CDC1C5F3DF100D48C15 /* TestViewController.xib */,
+				45098DE11C5F59B900D48C15 /* NewKeeperViewController.swift */,
+				45098DE21C5F59B900D48C15 /* NewKeeperViewController.xib */,
+				454DD68E1C621FFC00041938 /* NewTypeViewController.swift */,
+				454DD68F1C621FFC00041938 /* NewTypeViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,9 +562,20 @@
 		45D77C271C33C2C3000A0247 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				454DD6861C61CDA900041938 /* libz.tbd */,
+				45098DBC1C5F53E500D48C15 /* libsqlite3.tbd */,
 				45D77C281C33C2DF000A0247 /* LocalAuthentication.framework */,
 			);
 			path = Framework;
+			sourceTree = "<group>";
+		};
+		45FA3F571C62F96200E10A13 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				45FA3F5A1C6322A500E10A13 /* jdxs.ttf */,
+				45FA3F581C62F96200E10A13 /* mbmsz.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +646,7 @@
 				TargetAttributes = {
 					45D77BEE1C33B34F000A0247 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8QG8UF994B;
 					};
 					45D77C021C33B34F000A0247 = {
 						CreatedOnToolsVersion = 7.2;
@@ -362,13 +684,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454DD6911C621FFC00041938 /* NewTypeViewController.xib in Resources */,
 				45D77BFA1C33B34F000A0247 /* Assets.xcassets in Resources */,
+				45098DE41C5F59B900D48C15 /* NewKeeperViewController.xib in Resources */,
 				45EE49051C35825D00D46242 /* SplashViewController.xib in Resources */,
+				45915EFA1C609E4400E11B9D /* MenuCell.xib in Resources */,
 				45EE48FC1C357D7B00D46242 /* Localizable.Strings in Resources */,
+				45FA3F591C62F96200E10A13 /* mbmsz.ttf in Resources */,
 				45CEEE1E1C3E0ED80019306F /* MainViewController.xib in Resources */,
+				454DD6951C623E1200041938 /* KeeperCell.xib in Resources */,
 				4590C17C1C57401300211806 /* SettingsViewController.xib in Resources */,
+				454DD6801C619FF300041938 /* Info.plist in Resources */,
 				457EEFB71C5F3AD1005EF5C1 /* SideMenuNavigationController.xib in Resources */,
-				45098CDE1C5F3DF100D48C15 /* TestViewController.xib in Resources */,
+				4560A38F1CA388DB00DB06E8 /* SettingsCell.xib in Resources */,
+				45FA3F5B1C6322A500E10A13 /* jdxs.ttf in Resources */,
+				454DD68D1C61EAE200041938 /* MenuAdd.xib in Resources */,
+				4543E5A81C96BE3900B86750 /* keeper.sqlite.zip in Resources */,
 				4590C1781C571EF200211806 /* VerifyPresentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,22 +726,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D77BF31C33B34F000A0247 /* AppDelegate.swift in Sources */,
+				454DD6831C619FF300041938 /* unzip.c in Sources */,
 				457EEFB21C5F35FD005EF5C1 /* UISideMenuNavigationController.swift in Sources */,
-				45098CDD1C5F3DF100D48C15 /* TestViewController.swift in Sources */,
+				45098DD71C5F571D00D48C15 /* FMDatabase.m in Sources */,
 				457EEFB31C5F35FD005EF5C1 /* UITableViewVibrantCell.swift in Sources */,
 				457EEFB01C5F35FD005EF5C1 /* SideMenuManager.swift in Sources */,
+				454DD67A1C619FF300041938 /* entropy.c in Sources */,
+				45915EF21C60605600E11B9D /* KeeperType.swift in Sources */,
+				45915EF51C6075B500E11B9D /* KeeperEntity.swift in Sources */,
+				454DD6841C619FF300041938 /* zip.c in Sources */,
+				454DD67E1C619FF300041938 /* pwd2key.c in Sources */,
+				454DD67B1C619FF300041938 /* fileenc.c in Sources */,
+				454DD6851C619FF300041938 /* SSZipArchive.m in Sources */,
 				4546EB6B1C56119700B246A9 /* Constants.swift in Sources */,
+				45098DDC1C5F571D00D48C15 /* FMDatabase+FTS3.m in Sources */,
+				45098DE01C5F571D00D48C15 /* FMDatabaseVariadic.swift in Sources */,
+				454DD67D1C619FF300041938 /* prng.c in Sources */,
+				454DD6821C619FF300041938 /* mztools.c in Sources */,
+				454DD6781C619FF300041938 /* aeskey.c in Sources */,
+				454DD6901C621FFC00041938 /* NewTypeViewController.swift in Sources */,
+				4560A38E1CA388DB00DB06E8 /* SettingsCell.swift in Sources */,
 				45D77C221C33BC75000A0247 /* MainViewController.swift in Sources */,
+				45098DDB1C5F571D00D48C15 /* FMResultSet.m in Sources */,
+				45098DE81C5F5F4500D48C15 /* DBConstants.swift in Sources */,
+				45098DDE1C5F571D00D48C15 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				45915EFC1C60AC5000E11B9D /* TypeEntity.swift in Sources */,
+				45098DDD1C5F571D00D48C15 /* FMTokenizers.m in Sources */,
+				45098DDF1C5F571D00D48C15 /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				454DD6941C623E1200041938 /* KeeperCell.swift in Sources */,
 				45CEEE231C3E30DF0019306F /* Log.swift in Sources */,
 				457EEFB61C5F3AD1005EF5C1 /* SideMenuNavigationController.swift in Sources */,
+				454DD6811C619FF300041938 /* ioapi.c in Sources */,
+				454DD6501C619F0300041938 /* FileUtils.swift in Sources */,
 				4546EB681C5605E700B246A9 /* VerifyViewController.swift in Sources */,
+				45098DE71C5F5F4500D48C15 /* FMDBHelper.swift in Sources */,
 				4590C1771C571EF200211806 /* VerifyPresentView.swift in Sources */,
+				454DD67F1C619FF300041938 /* sha1.c in Sources */,
 				45CEEE251C3E324F0019306F /* Colors.swift in Sources */,
 				45D77C241C33BC89000A0247 /* BaseViewController.swift in Sources */,
 				45EE49041C35825D00D46242 /* SplashViewController.swift in Sources */,
+				45098DD81C5F571D00D48C15 /* FMDatabaseAdditions.m in Sources */,
+				454DD67C1C619FF300041938 /* hmac.c in Sources */,
+				45098DE31C5F59B900D48C15 /* NewKeeperViewController.swift in Sources */,
+				4560A38B1CA25E8000DB06E8 /* SettingEntity.swift in Sources */,
 				45CEEE211C3E309A0019306F /* PhoneUtils.swift in Sources */,
+				45098DDA1C5F571D00D48C15 /* FMDatabaseQueue.m in Sources */,
+				45098DD91C5F571D00D48C15 /* FMDatabasePool.m in Sources */,
 				457EEFB11C5F35FD005EF5C1 /* SideMenuTransition.swift in Sources */,
+				45915EF91C609E4400E11B9D /* MenuCell.swift in Sources */,
 				4590C17B1C57401300211806 /* SettingsViewController.swift in Sources */,
+				454DD6771C619FF300041938 /* aescrypt.c in Sources */,
+				454DD64E1C619EAA00041938 /* ZipUtils.swift in Sources */,
+				454DD68B1C61EACA00041938 /* MenuAdd.swift in Sources */,
+				454DD6791C619FF300041938 /* aestab.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +817,8 @@
 		45EE48FE1C357D7B00D46242 /* Localizable.Strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45EE48FD1C357D7B00D46242 /* en */,
 				45EE48FF1C357DA800D46242 /* zh-Hans */,
+				4560A3911CA3AFC700DB06E8 /* en */,
 			);
 			name = Localizable.Strings;
 			sourceTree = "<group>";

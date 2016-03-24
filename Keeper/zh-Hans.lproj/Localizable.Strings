@@ -6,5 +6,14 @@
   Copyright © 2015年 renwfy.fr. All rights reserved.
 */
 
-"authWithTouchId" = "输入指纹，解锁应用";
-"settingsController" = "设置";
+"AuthWithTouchId" = "输入指纹，解锁应用";
+"TitleSettings" = "设置";
+"TitleNewKeeperType" = "添加新分类";
+"TitleNewKeeper" = "添加新账号";
+"TitleMenu" = "菜单";
+"Save" = "保存";
+"Edit" = "编辑";
+"Complete" = "完成";
+"About" = "关于";
+"Zhichi" = "支持";
+"Comesoon" = "暂未支持";

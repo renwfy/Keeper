@@ -1,0 +1,6 @@
+[submodule "Keeper/Submodules/fmdb"]
+	path = Keeper/Submodules/fmdb
+	url = https://github.com/ccgus/fmdb.git
+[submodule "Keeper/Submodules/ZipArchive"]
+	path = Keeper/Submodules/ZipArchive
+	url = https://github.com/ZipArchive/ZipArchive.git
